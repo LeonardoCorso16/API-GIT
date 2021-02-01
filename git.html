@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <link rel="stylesheet" href="git.css">
+
+    <title>Git Resilia</title>
+</head>
+<body>
+    <div id="historico">
+        <form onsubmit="buscar.buscaUsuarios(event)">
+            <input type="text" data-usuario-github>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="bloco">
+        <div id="links">
+            <p class="titulo"></p>
+        </div>
+    </div>   
+    <script src="git.js"></script>
+
+    <script>
+        let buscar = new controleGit(); 
+    </script>
+</body>
+</html>
